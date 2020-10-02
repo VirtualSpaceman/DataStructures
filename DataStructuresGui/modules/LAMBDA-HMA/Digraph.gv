@@ -1,0 +1,24 @@
+digraph {
+	node [height=.2 shape=record]
+	label=4
+	29 [label="<f0> |<f1> 29|<f2> "]
+	19 [label="<f0> |<f1> 19|<f2> "]
+	29:f0 -> 19:f1
+	44 [label="<f0> |<f1> 44|<f2> "]
+	29:f2 -> 44:f1
+	44 [label="<f0> |<f1> 44|<f2> "]
+	null0 [shape=point]
+	44:f0 -> null0
+	null1 [shape=point]
+	44:f2 -> null1
+	19 [label="<f0> |<f1> 19|<f2> "]
+	14 [label="<f0> |<f1> 14|<f2> "]
+	19:f0 -> 14:f1
+	null2 [shape=point]
+	19:f2 -> null2
+	14 [label="<f0> |<f1> 14|<f2> "]
+	null3 [shape=point]
+	14:f0 -> null3
+	null4 [shape=point]
+	14:f2 -> null4
+}

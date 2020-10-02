@@ -1,0 +1,9 @@
+digraph {
+	node [height=.2 shape=record]
+	label=6
+	6 [label="<f0> |<f1> 6|<f2> "]
+	null0 [shape=point]
+	6:f0 -> null0
+	null1 [shape=point]
+	6:f2 -> null1
+}

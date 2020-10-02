@@ -1,0 +1,50 @@
+digraph {
+	node [height=.1 shape=record]
+	label="Step: 12
+ Delete(5)"
+	15 [label="<f0> |<f1> 15|<f2> "]
+	4 [label="<f0> |<f1> 4|<f2> "]
+	15:f0 -> 4:f1
+	16 [label="<f0> |<f1> 16|<f2> "]
+	15:f2 -> 16:f1
+	16 [label="<f0> |<f1> 16|<f2> "]
+	null0 [shape=point]
+	16:f0 -> null0
+	17 [label="<f0> |<f1> 17|<f2> "]
+	16:f2 -> 17:f1
+	17 [label="<f0> |<f1> 17|<f2> "]
+	null1 [shape=point]
+	17:f0 -> null1
+	null2 [shape=point]
+	17:f2 -> null2
+	4 [label="<f0> |<f1> 4|<f2> "]
+	3 [label="<f0> |<f1> 3|<f2> "]
+	4:f0 -> 3:f1
+	8 [label="<f0> |<f1> 8|<f2> "]
+	4:f2 -> 8:f1
+	8 [label="<f0> |<f1> 8|<f2> "]
+	7 [label="<f0> |<f1> 7|<f2> "]
+	8:f0 -> 7:f1
+	14 [label="<f0> |<f1> 14|<f2> "]
+	8:f2 -> 14:f1
+	14 [label="<f0> |<f1> 14|<f2> "]
+	null3 [shape=point]
+	14:f0 -> null3
+	null4 [shape=point]
+	14:f2 -> null4
+	7 [label="<f0> |<f1> 7|<f2> "]
+	null5 [shape=point]
+	7:f0 -> null5
+	null6 [shape=point]
+	7:f2 -> null6
+	3 [label="<f0> |<f1> 3|<f2> "]
+	-1 [label="<f0> |<f1> -1|<f2> "]
+	3:f0 -> -1:f1
+	null7 [shape=point]
+	3:f2 -> null7
+	-1 [label="<f0> |<f1> -1|<f2> "]
+	null8 [shape=point]
+	-1:f0 -> null8
+	null9 [shape=point]
+	-1:f2 -> null9
+}
